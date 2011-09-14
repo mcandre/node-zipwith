@@ -1,0 +1,24 @@
+{
+  "name": "zipwith",
+  "description": "A Node.js port of Haskell's zipWith function",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcandre/node-zipwith.git"
+  },
+  "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
+  "main": "zipwith",
+  "directories": {
+    "lib": "."
+  },
+  "scripts": {
+    "test": "test()"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "underscore": "1.1.5",
+    "cmp": "0.0.2"
+  }
+}
