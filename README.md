@@ -1,11 +1,11 @@
-zipwith - A Node.js port of Haskell's zipWith function
+# zipwith - A Node.js port of Haskell's zipWith function
 
-REQUIREMENTS
+## REQUIREMENTS
 
- - Node.js
+ - [Node.js](http://nodejs.org/)
  - [Underscore](http://search.npmjs.org/#/underscore)
 
-EXAMPLE
+## EXAMPLE
 
 	> var zipwith = require("zipwith").zipwith;
 	> zipwith(function(a, b) { return a + b; }, [1, 2, 3], [3, 2, 1]);
