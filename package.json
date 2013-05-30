@@ -17,8 +17,14 @@
   "engines": {
     "node": "*"
   },
+  "scripts": {
+    "lint": "jshint ."
+  },
   "dependencies": {
     "underscore": "1.1.5",
     "cmp": "0.0.2"
+  },
+  "devDependencies": {
+    "jshint": ">=2.1.2"
   }
 }
