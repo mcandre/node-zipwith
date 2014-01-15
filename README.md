@@ -1,23 +1,24 @@
 # zipwith - A Node.js port of Haskell's zipWith function
 
+# EXAMPLE
+
+    $ node example.js
+    [ 4, 4, 4 ]
+
+# HOMEPAGE
+
+https://github.com/mcandre/node-zipwith
+
 # REQUIREMENTS
 
- - [Node.js](http://nodejs.org/)
- - [Underscore](http://search.npmjs.org/#/underscore)
+* [Node.js](http://nodejs.org/) 0.10+
 
-# DEVELOPMENT
+# INSTALL
 
-## Linting
+    $ npm install zipwith
+
+# LINT
 
 Keep the code tidy:
 
     $ npm run-script lint
-
-# EXAMPLE
-
-    $ git clone https://github.com/mcandre/node-zipwith.git
-    $ cd node-zipwith
-    $ node
-    > var zipwith = require("zipwith").zipwith;
-    > zipwith(function(a, b) { return a + b; }, [1, 2, 3], [3, 2, 1]);
-    [ 4, 4, 4 ]
