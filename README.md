@@ -2,8 +2,13 @@
 
 # EXAMPLE
 
-    $ node example.js
+    $ npm test
+
+    > zipwith@0.0.2 test /Users/andrew/Desktop/src/node-zipwith
+    > node example.js
+
     [ 4, 4, 4 ]
+    [ [ 1, 3, 5 ], [ 2, 4, 6 ] ]
 
 # HOMEPAGE
 
