@@ -11,9 +11,6 @@
   "directories": {
     "lib": "."
   },
-  "scripts": {
-    "test": "test()"
-  },
   "engines": {
     "node": "*"
   },
