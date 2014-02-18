@@ -15,12 +15,14 @@
     "node": "*"
   },
   "scripts": {
-    "test": "node example.js",
+    "test": "mocha",
     "lint": "jshint ."
   },
   "dependencies": {
     "underscore": "1.1.5",
-    "cmp": "0.0.2"
+    "cmp": "0.0.2",
+    "quickcheck": "0.0.4",
+    "mocha": "~1.17"
   },
   "devDependencies": {
     "jshint": ">=2.1.2"
