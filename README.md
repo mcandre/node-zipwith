@@ -1,5 +1,9 @@
 # zipwith - A Node.js port of Haskell's zipWith function
 
+# INSTALL
+
+    $ npm install zipwith
+
 # EXAMPLE
 
     $ npm test
@@ -26,16 +30,22 @@ https://github.com/mcandre/node-zipwith
 * [Bundler](http://bundler.io/)
 * [Cucumber](http://cukes.info/)
 * [Guard](http://guardgem.org/)
+* [aspelllint](https://github.com/mcandre/aspelllint)
 
-# INSTALL
+# DEVELOPMENT
 
-    $ npm install zipwith
-
-# LINT
+## Lint
 
 Keep the code tidy:
 
     $ npm run-script lint
+
+## Spell Check
+
+    $ aspelllint
+    ...
+
+## Local CI
 
 Guard can automatically lint when the code changes:
 
