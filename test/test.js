@@ -32,7 +32,7 @@ describe("zipwith", function() {
   describe("reversible", function() {
     it("should be reversible", function() {
       function propReversible(xs, ys) {
-        if (xs.length == ys.length) {
+        if (xs.length === ys.length) {
           return cmp.eq(
             zipwith.unzip(zipwith.zipwith(function (a, b) { return [a, b]; }, xs, ys)),
             xs.concat(ys)

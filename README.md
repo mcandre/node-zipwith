@@ -6,15 +6,19 @@
 
 # EXAMPLE
 
-    $ npm test
-
-    > zipwith@0.0.2 test /Users/andrew/Desktop/src/node-zipwith
+    $ grunt
+    Running "exec:test" (exec) task
+    
+    > zipwith@0.0.2 test /home/apenneb/Desktop/src/node-zipwith
     > mocha
-
-
+    
+    
       ․․․
-
-      3 passing (5ms)
+    
+      3 passing (6ms)
+    
+    
+    Done, without errors.
 
 # HOMEPAGE
 
@@ -38,11 +42,11 @@ https://github.com/mcandre/node-zipwith
 
 Keep the code tidy:
 
-    $ npm run-script lint
+    $ grunt lint
 
 ## Spell Check
 
-    $ aspelllint
+    $ grunt aspelllint
     ...
 
 ## Local CI
