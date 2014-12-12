@@ -1,8 +1,8 @@
 var
-zipwith = require("../zipwith"),
+assert = require("assert"),
 qc = require("quickcheck"),
 cmp = require("cmp"),
-assert = require("assert");
+zipwith = require("../lib/zipwith");
 
 describe("zipwith", function() {
   describe("should be able to zip", function () {
