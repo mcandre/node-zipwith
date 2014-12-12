@@ -2,23 +2,27 @@
 
 # INSTALL
 
-    $ npm install zipwith
+```
+$ npm install zipwith
+```
 
 # EXAMPLE
 
-    $ grunt
-    Running "exec:test" (exec) task
-    
-    > zipwith@0.0.2 test /home/apenneb/Desktop/src/node-zipwith
-    > mocha
-    
-    
-      ․․․
-    
-      3 passing (6ms)
-    
-    
-    Done, without errors.
+```
+$ grunt
+Running "exec:test" (exec) task
+
+> zipwith@0.0.2 test /home/apenneb/Desktop/src/node-zipwith
+> mocha
+
+
+  ․․․
+
+  3 passing (6ms)
+
+
+Done, without errors.
+```
 
 # HOMEPAGE
 
@@ -26,7 +30,7 @@ https://github.com/mcandre/node-zipwith
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/) 0.10+
+* [Node.js](http://nodejs.org/) 0.8+
 
 ## Optional
 
@@ -42,20 +46,26 @@ https://github.com/mcandre/node-zipwith
 
 Keep the code tidy:
 
-    $ grunt lint
+```
+$ grunt lint
+```
 
 ## Spell Check
 
-    $ grunt aspelllint
-    ...
+```
+$ grunt aspelllint
+...
+```
 
 ## Local CI
 
 Guard can automatically lint when the code changes:
 
-    $ bundle
-    $ guard -G Guardfile-lint
-    ...
+```
+$ bundle
+$ guard -G Guardfile-lint
+...
+```
 
 ## Git Hooks
 
