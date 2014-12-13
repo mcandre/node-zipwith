@@ -3,19 +3,12 @@
 # EXAMPLE
 
 ```
-$ grunt
-Running "exec:test" (exec) task
-
-> zipwith@0.0.2 test /home/apenneb/Desktop/src/node-zipwith
-> mocha
-
-
-  ․․․
-
-  3 passing (6ms)
-
-
-Done, without errors.
+$ node
+> var zipwith = require("zipwith");
+> zipwith.zipwith(function (a, b) { return a + b; }, [1, 2, 3], [4, 5, 6]);
+[ 5, 7, 9 ]
+> zipwith.zipwith(function (a, b) { return a * b; }, [1, 2, 3], [4, 5, 6]);
+[ 4, 10, 18 ]
 ```
 
 # HOMEPAGE
@@ -25,12 +18,6 @@ https://github.com/mcandre/node-zipwith
 # NPM
 
 https://www.npmjs.com/package/zipwith
-
-# INSTALL
-
-```
-$ npm install zipwith
-```
 
 # REQUIREMENTS
 
