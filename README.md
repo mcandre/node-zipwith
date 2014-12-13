@@ -1,11 +1,5 @@
 # zipwith - A Node.js port of Haskell's zipWith function
 
-# INSTALL
-
-```
-$ npm install zipwith
-```
-
 # EXAMPLE
 
 ```
@@ -27,6 +21,16 @@ Done, without errors.
 # HOMEPAGE
 
 https://github.com/mcandre/node-zipwith
+
+# NPM
+
+https://www.npmjs.com/package/zipwith
+
+# INSTALL
+
+```
+$ npm install zipwith
+```
 
 # REQUIREMENTS
 
