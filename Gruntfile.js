@@ -1,9 +1,11 @@
+"use strict";
+
 module.exports = function(grunt) {
   grunt.initConfig({
 		exec: {
       test: "npm test",
 
-      jshint: "jshint .",
+      jshint: "node_modules/jshint/bin/jshint .",
       lili: "bundle exec lili .",
       aspelllint: "aspelllint ."
 		}
