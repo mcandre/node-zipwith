@@ -2,6 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
 		exec: {
       test: "npm test",
+
       jshint: "jshint .",
       lili: "bundle exec lili .",
       aspelllint: "aspelllint ."
