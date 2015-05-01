@@ -1,0 +1,6 @@
+Gemfile*
+Guardfile*
+hooks
+node_modules
+test
+.*
