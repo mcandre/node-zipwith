@@ -21,7 +21,7 @@ https://www.npmjs.com/package/zipwith
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/) 0.8+
+* [Node.js](http://nodejs.org/) 0.11.6+
 
 ## Optional
 
