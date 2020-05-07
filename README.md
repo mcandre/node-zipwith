@@ -59,7 +59,3 @@ $ bundle
 $ guard -G Guardfile-lint
 ...
 ```
-
-## Git Hooks
-
-See `hooks/`.
